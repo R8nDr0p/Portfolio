@@ -1,0 +1,273 @@
+@font-face {
+    font-family: alkatra;
+    src: url(font-family: 'Alkatra', cursive;);
+}
+#{
+    margin: 0;
+    list-style: none;
+}
+body{
+    background-color: skyblue;
+}
+.navbar{
+    display: flex  ;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+    border-radius: 0.5rem;
+    position: fixed;
+    top: 0 ;
+    left: 0;
+    width: 100%;
+    box-shadow: 2px 2px 10px gray;
+}
+.navbar-options ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+}
+.navbar-options li a{
+    font-family: alkatra;
+    font-size: x-large;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    transition: font-size 1s;
+}
+.navbar-options li a:hover{
+    text-decoration: underline;
+    color: lightgoldenrodyellow;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: xx-large;
+}
+.navbar-logo img{
+    width: 50px;
+    margin-right: 5px;
+
+}
+.header{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+background-color: beige;
+background-image: url(https://thumbs.gfycat.com/BlissfulScentedAustraliancattledog-max-1mb.gif);
+background-position: center;
+background-size: cover;
+border-radius: 25px;
+margin-top: 6.5rem;
+box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
+}
+.introductions{
+    padding: 5rem;
+}
+.introductions h1{
+    font-family: helvetica, sans-serif,arial;
+    font-size: 5rem;
+}
+.introductions h1 span{
+    color: rgb(107, 165, 175);
+    font-style: italic;
+    font-family: alkatra;
+    font-size: 6rem;
+    text-shadow: 2px 2px 10px gray;
+}
+.introductions p{
+    font-family: helvetica, sans-serif,arial;
+    font-size:  1.5rem;
+    font-weight: bold;
+}
+.introductions p span{
+    color: lightgoldenrodyellow;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgb(107, 165, 175);
+    border-radius: 20px;
+    padding: 0.25rem;
+}
+.about-me{
+    margin: 2rem;
+}
+.about-me-button{
+    font-size: xx-large;
+    border: 1px solid;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    background-color: rgb(107, 165, 175);
+    color: black;
+    text-decoration: none;
+    transition: padding 0.75s;
+}
+.about-me-button:hover{
+    text-decoration: underline;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
+    padding: 1.5rem;
+    background-color: lightblue;
+}
+.social-media-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.social-media-buttons a img{
+    border-radius: 0.5rem;
+    transition: padding 1s;
+}
+.social-media-buttons a img:hover{
+    text-decoration: underline;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+    padding: 0.28rem;
+    background-color: rgb(107, 165, 175);
+
+}
+.image img{
+    width: 30rem;
+    height: 30rem;
+    object-fit: cover;
+}
+
+.about-me-page{
+    display: none;
+    margin-top: 0.5rem;
+    background-color: beige;
+    border: 1px solid;
+    padding: 1rem;
+    border-radius: 25px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+.about-me-page p{
+    font-family: alkatra,sans-serif ;
+    font-size: 1.5rem;
+}
+.about-me-page span{
+    color: lightskyblue;
+}
+.about-me-page li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+.about-me-page:target{
+    display: block;
+}
+.skills{
+    display: none;
+    transition: 0.5s;
+}
+.skills:target{
+    display: block;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title h1{
+    text-align: center;
+    font-family: alkatra, sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+    border: 1px solid;
+    background-color: lightblue;
+    border-radius: 2rem;
+    margin-top: 0.5rem;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 10px gray;
+    margin-bottom: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.front-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 0.5rem;
+    background-color: lightsteelblue    ;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
+}
+.front-group p{
+    font-size: 2rem;
+    text-shadow: 2px 2px 10px gray;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 0.25rem;
+    font-weight: bold;
+    background-color: lightblue;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
+}
+.back-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 0.5rem;
+    background-color: lightsteelblue    ;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
+    margin-top: 0.6rem;
+}
+.back-group p{
+    font-size: 2rem;
+    text-shadow: 2px 2px 10px gray;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 0.25rem;
+    font-weight: bold;
+    background-color: lightblue;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
+}
+.front-logos{
+    display: flex;
+}
+.frontend-tooltip-box{
+    position: relative;
+}
+.front-logos img:hover{
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
+    padding: 1.8rem;
+    background-color: lightblue;
+    transition: padding 0.50s;
+}
+.backend-logos{
+    display: flex;
+}
+.backend-tooltip-box{
+    position: relative;
+}
+.tooltip-text{
+    display: none;
+    pointer-events: none;
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+    background-color: rgb(52, 52, 117);
+    color: antiquewhite;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    white-space: nowrap;
+    font-family: sans-serif;
+  }
+.backend-logos img:hover{
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
+    padding: 1.8rem;
+    background-color: lightblue;
+    transition: padding 0.50s;
+}
+.frontend-tooltip-box:hover .tooltip-text{
+    display: block;
+}
+.backend-tooltip-box:hover .tooltip-text{
+    display: block;
+}
+
+    
